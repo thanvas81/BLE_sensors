@@ -5,6 +5,309 @@
 	(uuid "06b47d3c-6b7b-411b-8755-cae193722202")
 	(paper "A4")
 	(lib_symbols
+		(symbol "My_Libraries:LSM303AHTR"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 35.56 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "LSM303AHTR"
+				(at 35.56 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "My_Libraries:LSM303AHTR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "LSM303AHTR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LSM303AHTR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LGA_3AHTR_STM LGA_3AHTR_STM-M LGA_3AHTR_STM-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LSM303AHTR_0_1"
+				(pin unspecified line
+					(at 0 0 0)
+					(length 7.62)
+					(name "SCL/SPC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "RESERVED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "SDA/SDI/SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -10.16 0)
+					(length 7.62)
+					(name "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 -12.7 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 71.12 0 180)
+					(length 7.62)
+					(name "INT1_XL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 71.12 -2.54 180)
+					(length 7.62)
+					(name "INT2_XL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 71.12 -5.08 180)
+					(length 7.62)
+					(name "Vdd_IO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 71.12 -7.62 180)
+					(length 7.62)
+					(name "Vdd"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 71.12 -10.16 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 71.12 -12.7 180)
+					(length 7.62)
+					(name "INT_MAG/DRDY"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LSM303AHTR_1_1"
+				(rectangle
+					(start 7.62 5.08)
+					(end 63.5 -17.78)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Sensor:BME280"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -230,6 +533,106 @@
 				)
 			)
 			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "My_Libraries:LSM303AHTR")
+		(at 137.16 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89d17ca0-70d0-4cb8-9d85-4f84b5e55923")
+		(property "Reference" "U2"
+			(at 172.72 92.71 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "LSM303AHTR"
+			(at 172.72 95.25 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "My_Libraries:LSM303AHTR"
+			(at 137.16 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "LSM303AHTR"
+			(at 137.16 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3df94080-64c6-4830-8a3c-92cd9549a375")
+		)
+		(pin "11"
+			(uuid "72e03f18-2ffa-4bb6-9726-4e49b9915934")
+		)
+		(pin "5"
+			(uuid "af1ea503-6e0d-40e9-9fe0-b26b8445edde")
+		)
+		(pin "3"
+			(uuid "3701b63d-92bc-46ab-bcd5-86c00717b552")
+		)
+		(pin "4"
+			(uuid "d5577e5a-fdc2-4489-804d-5a8a05bd2274")
+		)
+		(pin "6"
+			(uuid "290b2f65-9638-49a2-bc6b-0d99b1edb586")
+		)
+		(pin "2"
+			(uuid "5f3eb265-5930-401b-815d-b35dab79eb32")
+		)
+		(pin "12"
+			(uuid "bae64060-edf3-4392-963c-80dc5680314a")
+		)
+		(pin "8"
+			(uuid "248ee5b8-40f7-442b-9cd5-ef25f60c7322")
+		)
+		(pin "7"
+			(uuid "0cbe4f72-3245-4499-bb53-1aaa883ff942")
+		)
+		(pin "10"
+			(uuid "2a4296d5-b458-4bf1-be8a-04046e8e68de")
+		)
+		(pin "9"
+			(uuid "a96f6c7c-129f-4c26-887e-f7123ae08310")
+		)
+		(instances
+			(project ""
+				(path "/06b47d3c-6b7b-411b-8755-cae193722202"
+					(reference "U2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
