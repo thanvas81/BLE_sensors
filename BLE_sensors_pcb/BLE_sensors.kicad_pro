@@ -611,6 +611,22 @@
     [
       "06b47d3c-6b7b-411b-8755-cae193722202",
       "Root"
+    ],
+    [
+      "30528618-a979-4bf1-b774-eef2b8cf727d",
+      "PWR_SUPPLY"
+    ],
+    [
+      "9515a31a-8844-493e-b588-3303487459e9",
+      "Charger"
+    ],
+    [
+      "185d0b05-e8e4-4a33-bf89-f67e4862ef19",
+      "Buck-Boost"
+    ],
+    [
+      "c6c48d9e-1d41-497c-bdd1-6d10255ac4a5",
+      "LDO"
     ]
   ],
   "text_variables": {}
