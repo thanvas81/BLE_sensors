@@ -627,6 +627,22 @@
     [
       "c6c48d9e-1d41-497c-bdd1-6d10255ac4a5",
       "LDO"
+    ],
+    [
+      "bde6ec25-eed8-4451-a82f-0b98824cdc38",
+      "Temp Sensor"
+    ],
+    [
+      "bbf0f8a9-0bda-4e8d-8dd5-8c64c7357174",
+      "Accelerometer-Magnetometer"
+    ],
+    [
+      "b8a88e84-a949-4a9b-aa7d-7c85ef203e20",
+      "usb-c"
+    ],
+    [
+      "4f72fd42-d729-49de-850d-d28e88b85ae2",
+      "USB_to_Serial"
     ]
   ],
   "text_variables": {}

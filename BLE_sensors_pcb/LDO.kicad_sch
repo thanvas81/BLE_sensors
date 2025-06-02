@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "d0b78586-81fa-4f1c-b767-b0b4007e8259")
+	(uuid "0f90771e-f435-4302-a8a8-7209141e7c04")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C_Small"
@@ -597,7 +597,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "1u"
 			(at 151.13 105.4162 0)
 			(effects
 				(font
@@ -810,7 +810,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "1u"
 			(at 115.57 105.4162 0)
 			(effects
 				(font

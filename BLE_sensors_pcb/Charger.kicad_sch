@@ -1343,6 +1343,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 113.03) (xy 125.73 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15c784ae-c55c-49fc-932c-34adf1251c32")
+	)
+	(wire
+		(pts
 			(xy 110.49 97.79) (xy 115.57 97.79)
 		)
 		(stroke
@@ -1450,6 +1460,16 @@
 			(type default)
 		)
 		(uuid "78896276-3b2a-427b-9983-f3d438a04999")
+	)
+	(wire
+		(pts
+			(xy 121.92 101.6) (xy 125.73 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81a93639-06b5-431b-8781-95b0c36f9fa2")
 	)
 	(wire
 		(pts
@@ -1563,6 +1583,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 109.22) (xy 125.73 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae783987-7ad4-4399-9f33-2bd68db1d290")
+	)
+	(wire
+		(pts
 			(xy 97.79 82.55) (xy 125.73 82.55)
 		)
 		(stroke
@@ -1630,6 +1660,16 @@
 			(type default)
 		)
 		(uuid "e1556c3c-bd6a-4581-8f73-7f1caaa11a6e")
+	)
+	(wire
+		(pts
+			(xy 121.92 105.41) (xy 125.73 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef1f35d5-0940-4363-900c-2ea10021833e")
 	)
 	(wire
 		(pts
@@ -1702,6 +1742,28 @@
 		)
 		(uuid "0c3ce8cb-e6fc-46bb-bd6e-248dcff78367")
 	)
+	(hierarchical_label "TE"
+		(shape input)
+		(at 121.92 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1bcffb75-dc78-4f47-bbe4-8b436df4abc2")
+	)
+	(hierarchical_label "CE"
+		(shape input)
+		(at 121.92 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3035a3a5-e683-4dfd-9047-971d1f4a40ed")
+	)
 	(hierarchical_label "+V_bat"
 		(shape input)
 		(at 194.31 88.9 0)
@@ -1712,6 +1774,28 @@
 			(justify left)
 		)
 		(uuid "444c6cb9-d3e7-4bb2-b233-9dba53f06494")
+	)
+	(hierarchical_label "SEL"
+		(shape input)
+		(at 121.92 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "88ca004c-716c-4dfe-8a3d-eec2ab3f3663")
+	)
+	(hierarchical_label "PROG2"
+		(shape input)
+		(at 121.92 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a5bbd0bd-5bb1-4252-b00a-a7ca637e581d")
 	)
 	(hierarchical_label "Vin"
 		(shape input)
@@ -1734,15 +1818,15 @@
 		(dnp no)
 		(uuid "134f5890-63e5-478f-b4de-f4affb731e55")
 		(property "Reference" "TH1"
-			(at 174.244 91.694 90)
+			(at 166.37 93.218 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Thermistor_NTC"
-			(at 179.832 93.726 90)
+		(property "Value" "10k"
+			(at 172.212 94.234 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1866,7 +1950,7 @@
 		(dnp no)
 		(uuid "2008346b-67ee-48ac-a646-45b9af3416ff")
 		(property "Reference" "R6"
-			(at 114.554 96.012 90)
+			(at 112.268 92.202 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1874,8 +1958,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
-			(at 111.506 92.202 90)
+		(property "Value" "470R"
+			(at 116.332 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1935,7 +2019,7 @@
 		(dnp no)
 		(uuid "25970f3a-ab32-432f-bbfe-3ac5a585e6f4")
 		(property "Reference" "R3"
-			(at 165.354 102.108 90)
+			(at 165.862 99.568 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1943,8 +2027,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
-			(at 170.688 103.886 90)
+		(property "Value" "Rprog1"
+			(at 172.466 102.108 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2004,7 +2088,7 @@
 		(dnp no)
 		(uuid "583f755b-9f5d-4f5d-a7bc-6edc28aba490")
 		(property "Reference" "R7"
-			(at 119.126 91.186 90)
+			(at 114.808 88.392 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2012,8 +2096,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
-			(at 114.046 88.392 90)
+		(property "Value" "470R"
+			(at 118.872 91.186 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2394,7 +2478,7 @@
 		(dnp no)
 		(uuid "8c281c7e-81d5-4def-9ce5-a3fc87687519")
 		(property "Reference" "R4"
-			(at 164.592 108.204 90)
+			(at 164.592 105.664 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2402,8 +2486,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
-			(at 169.164 109.982 90)
+		(property "Value" "Rprog3"
+			(at 171.196 108.458 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2745,10 +2829,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e729949d-eaf0-4596-a531-dedec73d9dec")
 		(property "Reference" "C7"
-			(at 194.31 91.4462 0)
+			(at 194.056 91.948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2756,8 +2839,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 194.31 93.9862 0)
+		(property "Value" "4.7u"
+			(at 194.056 93.726 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2817,7 +2900,7 @@
 		(dnp no)
 		(uuid "ed401836-7e05-40ce-a67d-417100cebd9c")
 		(property "Reference" "R5"
-			(at 118.364 99.822 90)
+			(at 113.538 96.774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2825,8 +2908,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
-			(at 117.856 96.012 90)
+		(property "Value" "470R"
+			(at 119.888 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2949,10 +3032,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f4c043e6-61f1-4d4d-95d9-ae9593216081")
 		(property "Reference" "C8"
-			(at 210.82 85.0962 0)
+			(at 210.82 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2960,8 +3042,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 210.82 87.6362 0)
+		(property "Value" "4.7u"
+			(at 210.82 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3030,7 +3112,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "10u"
 			(at 88.9 86.3662 0)
 			(effects
 				(font
