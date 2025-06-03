@@ -748,6 +748,24 @@
 		(color 0 0 0 0)
 		(uuid "c30889ba-377b-4c75-8bd0-8a7d3dcdb600")
 	)
+	(bus_entry
+		(at 224.79 116.84)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "844f89f5-517a-4f60-8d4f-1ffffd290fe2")
+	)
+	(bus_entry
+		(at 388.62 85.09)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1942396-3128-49d2-8939-e91da65162df")
+	)
 	(wire
 		(pts
 			(xy 142.24 119.38) (xy 143.51 119.38)
@@ -1128,7 +1146,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 115.57 99.06 0)
 			(effects
 				(font
@@ -1487,7 +1505,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 107.95 93.98 0)
 			(effects
 				(font
@@ -1557,7 +1575,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 177.8 93.98 0)
 			(effects
 				(font
@@ -1691,7 +1709,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
 			(at 132.08 105.41 0)
 			(effects
 				(font
@@ -1761,7 +1779,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 165.1 93.98 0)
 			(effects
 				(font

@@ -1353,7 +1353,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 97.79) (xy 115.57 97.79)
+			(xy 111.76 97.79) (xy 115.57 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1693,7 +1693,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 97.79) (xy 97.79 97.79)
+			(xy 104.14 97.79) (xy 97.79 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1833,7 +1833,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 166.37 95.25 0)
 			(effects
 				(font
@@ -1967,7 +1967,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 114.3 93.98 0)
 			(effects
 				(font
@@ -2036,7 +2036,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 167.64 100.33 0)
 			(effects
 				(font
@@ -2105,7 +2105,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 116.84 90.17 0)
 			(effects
 				(font
@@ -2495,7 +2495,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 166.37 106.68 0)
 			(effects
 				(font
@@ -2628,7 +2628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 107.95 90.17 0)
 			(effects
 				(font
@@ -2746,7 +2746,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 106.68 97.79 180)
+		(at 107.95 97.79 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2754,7 +2754,7 @@
 		(dnp no)
 		(uuid "d2c91b47-92d9-43b1-9924-d28a66980192")
 		(property "Reference" "D1"
-			(at 103.632 99.568 0)
+			(at 104.902 99.568 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2762,7 +2762,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 103.378 96.266 0)
+			(at 104.648 96.266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2770,8 +2770,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 106.68 97.79 0)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 107.95 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2780,7 +2780,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 97.79 0)
+			(at 107.95 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2789,7 +2789,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 106.68 97.79 0)
+			(at 107.95 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2798,7 +2798,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 106.68 97.79 0)
+			(at 107.95 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2917,7 +2917,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 118.11 97.79 0)
 			(effects
 				(font
@@ -3189,7 +3189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 104.14 93.98 0)
 			(effects
 				(font
