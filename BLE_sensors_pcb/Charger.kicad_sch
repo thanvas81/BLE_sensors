@@ -1343,16 +1343,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 113.03) (xy 125.73 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15c784ae-c55c-49fc-932c-34adf1251c32")
-	)
-	(wire
-		(pts
 			(xy 111.76 97.79) (xy 115.57 97.79)
 		)
 		(stroke
@@ -1390,6 +1380,16 @@
 			(type default)
 		)
 		(uuid "25b510f2-40be-45b9-8557-f8fd9b668876")
+	)
+	(wire
+		(pts
+			(xy 114.3 101.6) (xy 125.73 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4834e47e-13c8-4d40-9a37-8512b58af83f")
 	)
 	(wire
 		(pts
@@ -1453,6 +1453,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 104.14) (xy 114.3 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64517043-8d15-43cc-accc-9ad70f5cbfef")
+	)
+	(wire
+		(pts
 			(xy 179.07 95.25) (xy 179.07 99.06)
 		)
 		(stroke
@@ -1460,16 +1470,6 @@
 			(type default)
 		)
 		(uuid "78896276-3b2a-427b-9983-f3d438a04999")
-	)
-	(wire
-		(pts
-			(xy 121.92 101.6) (xy 125.73 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81a93639-06b5-431b-8781-95b0c36f9fa2")
 	)
 	(wire
 		(pts
@@ -1500,6 +1500,16 @@
 			(type default)
 		)
 		(uuid "8a95f46b-6133-45bf-bbae-8e3aba3fdcf3")
+	)
+	(wire
+		(pts
+			(xy 121.92 113.03) (xy 125.73 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f2d079b-ca8a-4d7f-93ed-f1db054eb3ad")
 	)
 	(wire
 		(pts
@@ -1603,6 +1613,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 105.41) (xy 125.73 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b894a3c9-fcef-4f86-9a3f-f957f7ecb89e")
+	)
+	(wire
+		(pts
 			(xy 86.36 88.9) (xy 86.36 87.63)
 		)
 		(stroke
@@ -1660,16 +1680,6 @@
 			(type default)
 		)
 		(uuid "e1556c3c-bd6a-4581-8f73-7f1caaa11a6e")
-	)
-	(wire
-		(pts
-			(xy 121.92 105.41) (xy 125.73 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef1f35d5-0940-4363-900c-2ea10021833e")
 	)
 	(wire
 		(pts
@@ -1742,28 +1752,6 @@
 		)
 		(uuid "0c3ce8cb-e6fc-46bb-bd6e-248dcff78367")
 	)
-	(hierarchical_label "TE"
-		(shape input)
-		(at 121.92 109.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1bcffb75-dc78-4f47-bbe4-8b436df4abc2")
-	)
-	(hierarchical_label "CE"
-		(shape input)
-		(at 121.92 113.03 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3035a3a5-e683-4dfd-9047-971d1f4a40ed")
-	)
 	(hierarchical_label "+V_bat"
 		(shape input)
 		(at 194.31 88.9 0)
@@ -1775,18 +1763,7 @@
 		)
 		(uuid "444c6cb9-d3e7-4bb2-b233-9dba53f06494")
 	)
-	(hierarchical_label "SEL"
-		(shape input)
-		(at 121.92 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "88ca004c-716c-4dfe-8a3d-eec2ab3f3663")
-	)
-	(hierarchical_label "PROG2"
+	(hierarchical_label "Vin"
 		(shape input)
 		(at 121.92 105.41 180)
 		(effects
@@ -1795,7 +1772,18 @@
 			)
 			(justify right)
 		)
-		(uuid "a5bbd0bd-5bb1-4252-b00a-a7ca637e581d")
+		(uuid "80e71aa0-2776-49bb-a39e-8f9c40d8afae")
+	)
+	(hierarchical_label "Vin"
+		(shape input)
+		(at 121.92 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "83eb6037-9b91-4cd1-9623-0bba281597c0")
 	)
 	(hierarchical_label "Vin"
 		(shape input)
@@ -1807,6 +1795,17 @@
 			(justify right)
 		)
 		(uuid "cef0588d-c38b-408b-9a78-d1285398751a")
+	)
+	(hierarchical_label "Vin"
+		(shape input)
+		(at 121.92 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d9215b57-c5a1-454e-bc29-dd8f063b130e")
 	)
 	(symbol
 		(lib_id "Device:Thermistor_NTC")
@@ -2073,6 +2072,71 @@
 			(project "BLE_sensors"
 				(path "/06b47d3c-6b7b-411b-8755-cae193722202/30528618-a979-4bf1-b774-eef2b8cf727d/9515a31a-8844-493e-b588-3303487459e9"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42dd02bb-2ffb-44d3-96b6-b0d5d89dc4a7")
+		(property "Reference" "#PWR049"
+			(at 114.3 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa68504a-c835-4aab-9314-8c9fd50eb96b")
+		)
+		(instances
+			(project "BLE_sensors"
+				(path "/06b47d3c-6b7b-411b-8755-cae193722202/30528618-a979-4bf1-b774-eef2b8cf727d/9515a31a-8844-493e-b588-3303487459e9"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)

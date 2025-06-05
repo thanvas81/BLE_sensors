@@ -2000,22 +2000,22 @@
 		(uuid "4be62447-0a0f-4f09-891b-92909c6faafa")
 	)
 	(label "Protected_D-"
-		(at 153.67 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "68086d62-959b-4be2-9f88-a1f38479468d")
-	)
-	(label "Protected_D+"
 		(at 207.01 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
+		)
+		(uuid "68086d62-959b-4be2-9f88-a1f38479468d")
+	)
+	(label "Protected_D+"
+		(at 153.67 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
 		(uuid "69b01bb3-f6a1-4015-a7cf-42fa85b3426e")
 	)
