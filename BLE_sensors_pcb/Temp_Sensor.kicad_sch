@@ -717,7 +717,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 99.06) (xy 171.45 99.06)
+			(xy 149.86 99.06) (xy 180.34 99.06)
 		)
 		(stroke
 			(width 0)
@@ -926,17 +926,6 @@
 			(justify left)
 		)
 		(uuid "59a85e2e-f222-49b5-9b64-bbf5f8b27a48")
-	)
-	(hierarchical_label "SDO"
-		(shape input)
-		(at 171.45 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "68c0ff69-b27e-456b-888a-ee4b99d4a7de")
 	)
 	(hierarchical_label "Vdd"
 		(shape input)
@@ -1366,6 +1355,71 @@
 			(project "BLE_sensors"
 				(path "/06b47d3c-6b7b-411b-8755-cae193722202/bde6ec25-eed8-4451-a82f-0b98824cdc38"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 180.34 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b49ea30e-03b7-414b-ba5f-d4e01f452e92")
+		(property "Reference" "#PWR046"
+			(at 180.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 103.124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 180.34 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ccf0de55-0891-4d0b-a45d-b3aaa15cbdd9")
+		)
+		(instances
+			(project "BLE_sensors"
+				(path "/06b47d3c-6b7b-411b-8755-cae193722202/bde6ec25-eed8-4451-a82f-0b98824cdc38"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)

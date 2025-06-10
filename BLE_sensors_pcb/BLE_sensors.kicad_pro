@@ -120,7 +120,7 @@
           ""
         ],
         [
-          "silk_edge_clearance|150000000|67437000|6ea37e40-c741-4d78-a89e-668233d5a0da|46a2d313-c7dc-4036-9345-51cbcea2d724",
+          "silk_edge_clearance|150000000|67837000|6ea37e40-c741-4d78-a89e-668233d5a0da|46a2d313-c7dc-4036-9345-51cbcea2d724",
           ""
         ],
         [
@@ -713,10 +713,6 @@
     [
       "185d0b05-e8e4-4a33-bf89-f67e4862ef19",
       "Buck-Boost"
-    ],
-    [
-      "c6c48d9e-1d41-497c-bdd1-6d10255ac4a5",
-      "LDO"
     ],
     [
       "bde6ec25-eed8-4451-a82f-0b98824cdc38",
