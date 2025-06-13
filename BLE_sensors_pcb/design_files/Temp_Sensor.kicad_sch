@@ -1014,12 +1014,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "eb137f33-3879-4dfc-a5c2-38e85b01afaf")
+			(uuid "e443e48a-644d-43ce-b1a7-8b6ad010cea4")
 		)
 		(instances
 			(project "BLE_sensors"
 				(path "/06b47d3c-6b7b-411b-8755-cae193722202/bde6ec25-eed8-4451-a82f-0b98824cdc38"
 					(reference "#PWR05")
+					(unit 1)
+				)
+				(path "/06b47d3c-6b7b-411b-8755-cae193722202/cca34d4a-540d-4276-bf12-900792e0882b"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -1080,15 +1084,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "b2dd94aa-f7c9-4e50-96eb-f4d164ec1caf")
+			(uuid "d7527a11-5ca8-4bcb-86df-ac112b125c55")
 		)
 		(pin "1"
-			(uuid "226315d4-b999-40da-a3e2-724ef0127fa0")
+			(uuid "75a6580f-d107-48d6-99d1-99a06078e0b9")
 		)
 		(instances
 			(project "BLE_sensors"
 				(path "/06b47d3c-6b7b-411b-8755-cae193722202/bde6ec25-eed8-4451-a82f-0b98824cdc38"
 					(reference "C1")
+					(unit 1)
+				)
+				(path "/06b47d3c-6b7b-411b-8755-cae193722202/cca34d4a-540d-4276-bf12-900792e0882b"
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -1147,15 +1155,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "83e99321-84c6-40da-a9f2-760c25c85fb0")
+			(uuid "3b3f4db8-f833-4867-b94a-1f0180268e7f")
 		)
 		(pin "1"
-			(uuid "ef0e1b9f-03c5-4029-ae1b-b53fa6af1cfa")
+			(uuid "ff68f061-c4d3-4970-9559-bfa964f33c52")
 		)
 		(instances
 			(project "BLE_sensors"
 				(path "/06b47d3c-6b7b-411b-8755-cae193722202/bde6ec25-eed8-4451-a82f-0b98824cdc38"
 					(reference "C2")
+					(unit 1)
+				)
+				(path "/06b47d3c-6b7b-411b-8755-cae193722202/cca34d4a-540d-4276-bf12-900792e0882b"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -1216,15 +1228,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "35ec8c90-c880-4791-8020-91ee55fe0a6c")
+			(uuid "c0c8d280-6a4b-4a1b-8ed7-4e84d6fbb8db")
 		)
 		(pin "1"
-			(uuid "50538ab8-eaa4-41cd-b2db-b0baae7dc2ae")
+			(uuid "f92f4cbf-a785-4b52-a1fc-bb5e0f2640e0")
 		)
 		(instances
 			(project "BLE_sensors"
 				(path "/06b47d3c-6b7b-411b-8755-cae193722202/bde6ec25-eed8-4451-a82f-0b98824cdc38"
 					(reference "R1")
+					(unit 1)
+				)
+				(path "/06b47d3c-6b7b-411b-8755-cae193722202/cca34d4a-540d-4276-bf12-900792e0882b"
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -1284,12 +1300,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "917d6078-d6ab-40a7-9e6a-75b380b28b00")
+			(uuid "1b78f2f3-9d3b-49fb-8764-8a120301708b")
 		)
 		(instances
 			(project "BLE_sensors"
 				(path "/06b47d3c-6b7b-411b-8755-cae193722202/bde6ec25-eed8-4451-a82f-0b98824cdc38"
 					(reference "#PWR06")
+					(unit 1)
+				)
+				(path "/06b47d3c-6b7b-411b-8755-cae193722202/cca34d4a-540d-4276-bf12-900792e0882b"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -1349,12 +1369,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "6a3505fe-c68d-47f7-84f4-cd389fa2f468")
+			(uuid "caab6abf-c1b3-4bd5-ae96-dc25de672d1c")
 		)
 		(instances
 			(project "BLE_sensors"
 				(path "/06b47d3c-6b7b-411b-8755-cae193722202/bde6ec25-eed8-4451-a82f-0b98824cdc38"
 					(reference "#PWR07")
+					(unit 1)
+				)
+				(path "/06b47d3c-6b7b-411b-8755-cae193722202/cca34d4a-540d-4276-bf12-900792e0882b"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -1414,12 +1438,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "ccf0de55-0891-4d0b-a45d-b3aaa15cbdd9")
+			(uuid "c1f88d1e-f56b-4a6c-bed8-efc868bbd038")
 		)
 		(instances
 			(project "BLE_sensors"
 				(path "/06b47d3c-6b7b-411b-8755-cae193722202/bde6ec25-eed8-4451-a82f-0b98824cdc38"
 					(reference "#PWR046")
+					(unit 1)
+				)
+				(path "/06b47d3c-6b7b-411b-8755-cae193722202/cca34d4a-540d-4276-bf12-900792e0882b"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -1478,15 +1506,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "1e55e2dc-6c61-433f-83eb-a850b23054a2")
+			(uuid "63c1da51-d49b-4c0e-a7bf-596f75aaa8d0")
 		)
 		(pin "1"
-			(uuid "5f27bef9-736b-46b6-b791-2cb6c246cb12")
+			(uuid "9367d5ef-6c9c-4266-8664-c5d2f527da42")
 		)
 		(instances
 			(project "BLE_sensors"
 				(path "/06b47d3c-6b7b-411b-8755-cae193722202/bde6ec25-eed8-4451-a82f-0b98824cdc38"
 					(reference "R2")
+					(unit 1)
+				)
+				(path "/06b47d3c-6b7b-411b-8755-cae193722202/cca34d4a-540d-4276-bf12-900792e0882b"
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -1548,33 +1580,37 @@
 			)
 		)
 		(pin "6"
-			(uuid "3c58af7a-7c86-41a1-8482-a64da78b5ef3")
+			(uuid "30b850a1-3081-4759-a1d5-7bb398bc260b")
 		)
 		(pin "4"
-			(uuid "55f464ca-4e11-463c-abe3-5ae3797106a0")
+			(uuid "36c3fdc4-3b6f-4018-adfc-db996137364d")
 		)
 		(pin "2"
-			(uuid "a325029d-b36a-4a0f-84b3-86579c0a32f7")
+			(uuid "d922cb22-ef64-491d-82c0-3bb6d8c4924a")
 		)
 		(pin "5"
-			(uuid "35230cc2-590c-4561-b221-b8f2708402cd")
+			(uuid "eac0c27d-dcd9-436e-99d4-495af00623a4")
 		)
 		(pin "7"
-			(uuid "87a83e6c-92a8-407c-aa4e-a49f504d2ab2")
+			(uuid "d4561f95-82b7-43da-978a-ad017d5b7163")
 		)
 		(pin "8"
-			(uuid "d0b7a2dd-3444-480e-be02-cdb413f02d29")
+			(uuid "af7ef34c-d3f3-46b2-bf35-bc246bfcd5b1")
 		)
 		(pin "1"
-			(uuid "607f5bac-392b-4f2a-ae51-2dc6f948ae38")
+			(uuid "9afd8106-f8dd-4d8c-9b12-5c52c8e15c19")
 		)
 		(pin "3"
-			(uuid "d6783825-3331-4212-83e4-7cef33dae370")
+			(uuid "e44c03cd-b51a-45b1-8623-13e698dd596e")
 		)
 		(instances
 			(project "BLE_sensors"
 				(path "/06b47d3c-6b7b-411b-8755-cae193722202/bde6ec25-eed8-4451-a82f-0b98824cdc38"
 					(reference "U1")
+					(unit 1)
+				)
+				(path "/06b47d3c-6b7b-411b-8755-cae193722202/cca34d4a-540d-4276-bf12-900792e0882b"
+					(reference "U6")
 					(unit 1)
 				)
 			)
