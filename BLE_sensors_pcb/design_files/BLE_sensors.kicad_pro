@@ -686,7 +686,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "Schematics/",
+    "plot_directory": "../Schematics/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -717,10 +717,6 @@
     [
       "bde6ec25-eed8-4451-a82f-0b98824cdc38",
       "Temp Sensor"
-    ],
-    [
-      "cca34d4a-540d-4276-bf12-900792e0882b",
-      "Temp Sensor1"
     ],
     [
       "bbf0f8a9-0bda-4e8d-8dd5-8c64c7357174",
