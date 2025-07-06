@@ -1,0 +1,7 @@
+west:
+  command: C:\ncs\toolchains\0b393f9e1b\opt\bin\Scripts\west build --build-dir c:/Users/Asus/Desktop/Files/School/Thesis/blecon-device-sdk/examples/zephyr/hello-world/build
+    c:/Users/Asus/Desktop/Files/School/Thesis/blecon-device-sdk/examples/zephyr/hello-world
+    --pristine --board minew_me54be01/nrf54l15/cpuapp -- -DNCS_TOOLCHAIN_VERSION=NONE
+    -DBOARD_ROOT=c:/users/asus/desktop/files/school/thesis/blecon-device-sdk/examples/zephyr/boards/minew/minew_me54be01;c:/test/blinky_pwm
+  topdir: c:\ncs\v2.9.1
+  version: 1.2.0

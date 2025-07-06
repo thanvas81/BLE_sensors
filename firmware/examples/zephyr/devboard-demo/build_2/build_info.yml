@@ -1,0 +1,7 @@
+west:
+  command: C:\ncs\toolchains\0b393f9e1b\opt\bin\Scripts\west build --build-dir c:/Users/Asus/Desktop/Files/School/Thesis/blecon-device-sdk/examples/zephyr/devboard-demo/build_2
+    c:/Users/Asus/Desktop/Files/School/Thesis/blecon-device-sdk/examples/zephyr/devboard-demo
+    --pristine --board minew_me54be01/nrf54l15/cpuapp -- -DNCS_TOOLCHAIN_VERSION=NONE
+    -DZEPHYR_EXTRA_MODULES=${workspaceFolder}/ports/zephyr -DBOARD_ROOT=c:/users/asus/desktop/files/school/thesis/blecon-device-sdk/examples/zephyr
+  topdir: c:\ncs\v2.9.1
+  version: 1.2.0

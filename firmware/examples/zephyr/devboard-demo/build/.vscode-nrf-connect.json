@@ -1,0 +1,18 @@
+{
+  "toolchainPath": "c:\\ncs\\toolchains\\0b393f9e1b",
+  "sdkPath": "c:\\ncs\\v2.9.1",
+  "board": "minew_me54be01/nrf54l15/cpuapp",
+  "boardDir": "c:\\Users\\Asus\\Desktop\\Files\\School\\Thesis\\blecon-device-sdk\\examples\\zephyr\\boards\\minew\\minew_me54be01\\boards\\minew\\minew_me54be01",
+  "boardDirs": [
+    "c:\\Users\\Asus\\Desktop\\Files\\School\\Thesis\\blecon-device-sdk\\examples\\zephyr\\boards\\minew\\minew_me54be01\\boards\\minew\\minew_me54be01"
+  ],
+  "optimizations": "none",
+  "cmakeArgs": [],
+  "confFiles": [],
+  "buildDirectory": "build",
+  "kconfigFragments": [],
+  "snippets": [],
+  "dtcOverlays": [],
+  "extraDtcOverlays": [],
+  "boardRoot": "c:\\Users\\Asus\\Desktop\\Files\\School\\Thesis\\blecon-device-sdk\\examples\\zephyr"
+}

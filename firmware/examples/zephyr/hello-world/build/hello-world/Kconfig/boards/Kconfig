@@ -1,0 +1,2 @@
+# Load Zephyr board Kconfig descriptions.
+osource "C:/Users/Asus/Desktop/Files/School/Thesis/blecon-device-sdk/examples/zephyr/boards/minew/minew_me54be01/boards/minew/minew_me54be01/Kconfig"

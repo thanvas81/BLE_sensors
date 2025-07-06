@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "west: build BLE_Beacon",
+      "type": "shell",
+      "command": "west",
+      "args": [
+        "build",
+        "--pristine",
+        "--build-dir", "${workspaceFolder}/firmware/BLE_Beacon/build",
+        "--board", "nrf54l15pdk/nrf54l15/cpuapp",
+        "${workspaceFolder}/firmware/BLE_Beacon"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}
