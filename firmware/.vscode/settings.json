@@ -2,5 +2,6 @@
     "nrf-connect.applications": [
         "${workspaceFolder}\\BLE_Beacon"
     ],
-    "cmake.sourceDirectory": "C:/Users/Asus/Desktop/Files/School/Thesis/BLE_sensors/firmware/BLE_Beacon"
+    "cmake.sourceDirectory": "C:/Users/Asus/Desktop/Files/School/Thesis/BLE_sensors/firmware/BLE_Beacon",
+    "idf.pythonInstallPath": "C:\\Users\\Asus\\.espressif\\tools\\idf-python\\3.11.2\\python.exe"
 }

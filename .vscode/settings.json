@@ -1,0 +1,9 @@
+{
+    "nrf-connect.applications": [
+        "${workspaceFolder}\\firmware\\BLE_Beacon",
+        "${workspaceFolder}\\firmware\\reflector"
+    ],
+    "files.associations": {
+        "gatt.h": "c"
+    }
+}

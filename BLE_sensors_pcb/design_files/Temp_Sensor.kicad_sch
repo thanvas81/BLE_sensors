@@ -602,7 +602,7 @@
 	)
 	(text "Temp Sensor\n"
 		(exclude_from_sim no)
-		(at 140.97 37.338 0)
+		(at 138.43 66.802 0)
 		(effects
 			(font
 				(size 3.81 3.81)

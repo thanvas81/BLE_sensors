@@ -552,7 +552,7 @@
 	)
 	(text "Accelerometer Magnetometer\n"
 		(exclude_from_sim no)
-		(at 145.034 42.926 0)
+		(at 145.542 78.232 0)
 		(effects
 			(font
 				(size 3.81 3.81)

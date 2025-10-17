@@ -710,7 +710,7 @@
 	)
 	(text "USB to Serial\n"
 		(exclude_from_sim no)
-		(at 145.288 35.306 0)
+		(at 146.558 71.374 0)
 		(effects
 			(font
 				(size 3.81 3.81)
