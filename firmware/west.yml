@@ -4,7 +4,7 @@
 # specifies the location of this manifest file like this:
 #
 #     [manifest]
-#     path = nrf 
+#     path = nrf ffff
 #
 # See the west documentation for more information:
 #
